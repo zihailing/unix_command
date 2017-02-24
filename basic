@@ -1,0 +1,3 @@
+hostname -I ###get the IP address of the node
+ip addr show ###show the information of the node
+qsub -q medium.q|medium.q@node015.local xxx.sh ###submit task to a specific node or specific type of node
